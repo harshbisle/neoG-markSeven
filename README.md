@@ -4,7 +4,7 @@
 
 [neoG mark7]
 
-<a href=""><img src="" /></a>
+<a href=""><img src="G:\neoG\neoG-markSeven\neoG-markSeven\yoda.jpg" /></a>
 
 ## Features
 
