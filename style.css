@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+:root {
+    --background: rgb(153, 116, 116);
+    --grey: rgb(51, 51, 51);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: var(--background); */
+    color: white;
+    background: url('./yoda.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0.5rem;
+}
+
+main {
+    margin: 1rem;
+}
+
+#txt-input, #output {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    width: 80%;
+    height: 20vh;
+    font-size: 1.5rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    opacity: 0.7;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    background-color: var(--grey);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: var(--grey);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+footer a, .github a{
+    color: inherit;
+}
